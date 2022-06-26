@@ -11,14 +11,14 @@ public class BankAccounts {
 	Integer accountBalance = 5000;
 	
 	
-	
+	//user defind method
 	public void getBalance() { //this method acts on the data called accountbalance
 		
 		System.out.println("The balance is "+accountBalance);
 	}
 	
 	
-	
+	//system defined main method
 	public static void main(String[] args) {
 		
 		//to access the getBalance() we must create object for the bankAccount class
